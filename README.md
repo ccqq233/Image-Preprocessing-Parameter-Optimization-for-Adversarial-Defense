@@ -24,9 +24,7 @@ Both frameworks produce detailed reports including visualizations, confusion mat
 ├── comprehensive_blur_defense/ # Output folder for Gaussian blur
 └── comprehensive_nlmeans_defense/ # Output folder for NLM defense
 
-text
 
----
 
 ## Features
 
