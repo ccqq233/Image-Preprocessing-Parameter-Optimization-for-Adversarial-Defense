@@ -11,7 +11,7 @@ Both frameworks produce detailed reports including visualizations, confusion mat
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 .
 ├── combined_blur_defense.py # Gaussian blur optimization
 ├── combined_nlmeans_defense.py # Non‑local means denoising optimization
@@ -28,7 +28,7 @@ text
 
 ---
 
-## ✨ Features
+## Features
 
 - **Automatic parameter search** over:
   - Gaussian blur: kernel size (3,5,7) and sigma (0.1–1.5)
@@ -52,7 +52,7 @@ text
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 Install the required packages:
 
@@ -68,7 +68,7 @@ OpenCV (for NLM denoising)
 
 Other common libraries: numpy, matplotlib, seaborn, pandas, scikit-learn
 
-🚀 Usage
+Usage
 1. Prepare the model and adversarial samples
 Train a classifier (here OptimizedCNN from model3.py) and save its weights as best_model.pth.
 
@@ -97,7 +97,7 @@ Output will be saved in ./comprehensive_nlmeans_defense/.
 
 If both optimizations have been run, the NLM script will automatically generate a comparison report between the two methods.
 
-📊 Output Explanation
+Output Explanation
 For each epsilon value, a folder epsilon_<value>/ is created containing:
 
 parameter_selection/
